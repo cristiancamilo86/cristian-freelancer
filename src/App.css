@@ -1,0 +1,60 @@
+#root {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.cerca {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #09060675;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  text-align: center;
+}
+
+.yo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.titulo {
+  font-size: 34px;
+  font-weight: bold;
+  color: #f1ecec;
+}
+
+.descripcion {
+  font-size: 20px;
+  color: #fdf7f7;
+ animation: forwards;
+}
+
+
+
+
+/* Footer.css */
+.social-icon::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  border: 2px dashed currentColor;
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.social-icon:hover::before {
+  opacity: 1;
+}
